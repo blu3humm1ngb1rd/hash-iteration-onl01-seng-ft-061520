@@ -13,8 +13,8 @@ end
 
 
 def age_appropriate_birthday(birthday_kids)
-birthday_kids.collect do |kids_name,  age|
-  if birthday_kids.value?(>12)
+
+  birthday_kids.value?(>12) do  |kids_name,  age|
  puts "Happy Birthday #{kids_name}! You are now #{age} years old!" 
  else
    "Not welcome"
