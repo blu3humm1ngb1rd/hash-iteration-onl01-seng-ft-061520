@@ -14,7 +14,7 @@ end
 
 def age_appropriate_birthday(birthday_kids)
 
-  birthday_kids.value?(<12) do  |kids_name,  age|
+  birthday_kids.index(<12) do  |kids_name,  age|
  puts "Happy Birthday #{kids_name}! You are now #{age} years old!" 
  
   end
