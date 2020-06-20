@@ -13,8 +13,8 @@ end
 
 
 def age_appropriate_birthday(birthday_kids)
-
-birthday_kids.select do |name, age| age < 12
+under_12 = {}
+under_12 = birthday_kids.select do |name, age| age < 12
 puts "Happy Birthday #{name}! You are now #{age} years old!" 
 
   
