@@ -14,7 +14,6 @@ end
 
 def age_appropriate_birthday(birthday_kids)
   
-  over_12 = 
   
  birthday_kids.select do |name, age| 
    if age < 12
